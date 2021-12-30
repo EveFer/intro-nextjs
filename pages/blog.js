@@ -1,9 +1,9 @@
-import React from 'react'
+import Layout from '../components/Layout'
 
-export default function blog() {
-    return (
-        <div>
-            <h1>Estas en el blog</h1>
-        </div>
-    )
+export default function blog () {
+  return (
+    <Layout>
+      <h1>Estas en el blog</h1>
+    </Layout>
+  )
 }
